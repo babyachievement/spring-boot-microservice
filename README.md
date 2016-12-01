@@ -20,9 +20,10 @@ docker build -t microservicedemo/employee .
 docker run -P -d --name employee --link mongodb microservicedemo/employee
 ```
  
- 
- ## 5. 验证
- post  /employee
+## 5. 验证
+
+post  /employee
+
  ```json
 
 {
