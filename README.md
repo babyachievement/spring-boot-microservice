@@ -5,6 +5,8 @@ docker run -P -d --name mongodb mongo
 
 2. 构建项目
 
+生成的jar包在build/libs下
+
 3. 构建image
 ```java
 docker build -t microservicedemo/employee .
